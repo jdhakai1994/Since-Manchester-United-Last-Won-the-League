@@ -1,16 +1,21 @@
-/*
+
 html{
-	background-image: url(download.jpg);
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+	
+	background-image: url(../images/sample.jpg);
+															-webkit-background-size: cover;
+  															   -moz-background-size: cover;
+  																 -o-background-size: cover;
+  																	background-size: cover;
+	
+	/*background-color: #c70000;     red background  
+	background-color: #fff92a;       yellow background */
 }
-*/
+/*
 div{
 	border: 1px solid black;
-	/*padding: 10px;*/
+	/*padding: 10px;
 }
+*/
 
 img{
 	margin-right: auto;
@@ -44,6 +49,10 @@ img{
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 960px;
+	font-family: 'Lobster', 'cursive', 'serif';
+	font-weight: 400;
+	font-size: 50px;
+	color: #000000;
 }
 
 #timer{
@@ -53,8 +62,10 @@ img{
 	margin-bottom: 20px;
 	max-width: 960px;
 	color: #A4A4A4;
+}
 
-
+#timer div{
+	border-radius: 15px 0 15px 0;
 }
 
 .time{
@@ -64,13 +75,14 @@ img{
 	width: 125px;
 	text-transform: uppercase;
 	padding: 0 5px 0 5px;
-	margin: 0 5px 0 5px;
+	margin: 0 10px 0 0px;
 	background: #000000;
 }
 
 .hidden{
 	display: none;
 }
+
 p{
 	line-height: 50%;
 }
@@ -80,5 +92,5 @@ p:first-child{
 }
 
 p:last-child{
-	font-size: 20px;
+	font-size: 15px;
 }

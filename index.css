@@ -1,0 +1,84 @@
+/*
+html{
+	background-image: url(download.jpg);
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+}
+*/
+div{
+	border: 1px solid black;
+	/*padding: 10px;*/
+}
+
+img{
+	margin-right: auto;
+	margin-left: auto;
+	height: 250px;
+	width: 250px;
+}
+
+.image{
+	background-color: black;
+}
+
+#logo{
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	height: 250px;
+	width: 250px;
+}
+
+
+.banter{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+}
+
+.heading{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 960px;
+}
+
+#timer{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	max-width: 960px;
+	color: #A4A4A4;
+
+
+}
+
+.time{
+	display: inline-block;
+	text-align: center;
+	height: 125px;
+	width: 125px;
+	text-transform: uppercase;
+	padding: 0 5px 0 5px;
+	margin: 0 5px 0 5px;
+	background: #000000;
+}
+
+.hidden{
+	display: none;
+}
+p{
+	line-height: 50%;
+}
+
+p:first-child{
+	font-size: 40px;
+}
+
+p:last-child{
+	font-size: 20px;
+}
